@@ -1,0 +1,51 @@
+body {
+    padding-bottom: 1500px;
+}
+
+.count {
+    font-size: 88px;
+    color: #53829e;
+}
+
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+
+ol.isSortable:hover {
+    cursor: move;
+}
+
+ol.isSortable {
+    list-style-type: none;
+}
+
+ol.isSortable li.placeholder {
+    position: relative;
+    /** More li styles **/
+}
+ol.isSortable li.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+}
+
+tbody tr {
+    display: none;
+}
+
+.action {
+    width: 45%;
+}
+
+.title2 {
+    width: 45%;
+}
+
+tbody tr td:nth-of-type(4) button:not(:first-of-type) {
+    margin-left: 10px;
+}
