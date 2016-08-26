@@ -26,6 +26,12 @@ div.goto a.btn.btn-danger {
     }
 }
 
+@media (max-width: 430px) {
+    div.goto {
+        display: none;
+    }
+}
+
 
 @keyframes toDown {
     0% {

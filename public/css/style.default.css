@@ -47,13 +47,6 @@
     }
 }
 
-@media (max-width: 430px) {
-    .main p.social {
-        text-align: left;
-        margin-top: 5px;
-    }
-}
-
 .main .cursive {
     font-family: 'Pacifico', cursive;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
