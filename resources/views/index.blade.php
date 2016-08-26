@@ -1,4 +1,7 @@
 @extends('layout')
+@section('goto')
+    <div class="goto"><a href="#email3" class="btn btn-danger">Inscription &#8595;</a></div>
+@endsection
 @section('content')
         <p id="share" class="social"></p>
         <div class="fake-h1">
@@ -186,7 +189,7 @@
         $("#share").jsSocials({
             url: myurl,
             text: mytxt,
-            showLabel: true,
+            showLabel: false,
             showCount: false,
             shares: ["twitter", "facebook", "googleplus", "linkedin", "email"]
         });

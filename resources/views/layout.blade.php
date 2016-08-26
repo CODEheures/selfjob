@@ -42,6 +42,7 @@
 <body>
 <div style="background-image: url('{{ asset('/img/urban3.jpg') }}')" class="main">
     <div class="overlay"></div>
+    @yield('goto')
     <div class="container">
        @yield('content')
     </div>

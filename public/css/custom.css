@@ -4,6 +4,36 @@
     text-align: center;
 }
 
+div.goto {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    animation: toDown 3s infinite;
+    z-index: 2;
+}
+
+div.goto a.btn.btn-danger {
+    padding: 10px 5px;
+    display: block;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+}
+
+@keyframes toDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 div.fake-h1 {
     width: auto;
     position: relative;
