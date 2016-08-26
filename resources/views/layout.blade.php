@@ -11,7 +11,7 @@
     <meta property="og:site_name" content="{{ env('APP_NAME') }}"/>
     <meta property="og:title" content="Recrutement sans CV"/>
     <meta property="og:description" content="{{ env('APP_NAME') }} pour un recrutement personnalisé sans CV. Une même chance pour tous et plus de tri de CV"/>
-    <meta property="og:image" content="{{ asset('/css/images/site_thumbnail.jpg') }}">
+    <meta property="og:image" content="{{ asset('/img/site_thumbnail.jpg') }}">
     <meta property="og:url" content="{{ route('home') }}">
     <meta property="og:type" content="website"/>
 
