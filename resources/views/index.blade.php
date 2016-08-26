@@ -208,7 +208,7 @@
     }
 
     function onPlayerReady(event) {
-        event.target.setVolume(100);
+        event.target.setVolume(5);
     }
 
     $(function () {
