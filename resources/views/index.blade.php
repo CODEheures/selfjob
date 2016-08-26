@@ -172,7 +172,7 @@
     jsSocials.shares.facebook.shareUrl = "https://www.facebook.com/sharer/sharer.php?u={url}";
 
     var parser = window.location.href;
-    var myurl = "http://www.google.com";
+    var myurl = "http://self-job.tk";
     var mytxt = "Self Job";
     if (parser.indexOf('?counter=true') != -1) {
         $("#share").jsSocials({
