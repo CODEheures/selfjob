@@ -43,9 +43,11 @@
                     <div id="pop_up_employer"
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
-                            <h3>Employeurs</h3>
-                            <a href="#" type="button" data-target="#pop_up_employer" id="btn-style-switch-button2"
-                               class="btn btn-lg style-switch-button2">&times;</a>
+                            <div class="row">
+                                <h3 class="col-xs-10">Employeurs</h3>
+                                <a href="#" type="button" data-target="#pop_up_employer" id="btn-style-switch-button2"
+                                   class="btn btn-lg style-switch-button2 pull-right">&times;</a>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -76,9 +78,11 @@
                     <div id="pop_up_candidate"
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
-                            <h3>Candidats</h3>
-                            <a href="#" type="button" data-target="#pop_up_candidate" id="btn-style-switch-button3"
-                               class="btn btn-lg style-switch-button2">&times;</a>
+                            <div class="row">
+                                <h3 class="col-xs-10">Candidats</h3>
+                                <a href="#" type="button" data-target="#pop_up_candidate" id="btn-style-switch-button3"
+                                   class="btn btn-lg style-switch-button2 pull-right">&times;</a>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -109,9 +113,11 @@
                     <div id="pop_up_subscribe"
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
-                            <h3>Merci pour votre inscription!!</h3>
-                            <a href="#" type="button" id="btn-style-switch-button4"
-                               class="btn btn-lg style-switch-button2">&times;</a>
+                            <div class="row">
+                                <h3 class="col-xs-10">Merci pour votre inscription!!</h3>
+                                <a href="#" type="button" id="btn-style-switch-button4"
+                                   class="btn btn-lg style-switch-button2 pull-right">&times;</a>
+                             </div>
                             <div class="row">
                                 <div class="col-xs-6 col-xs-offset-3">
                                     <img src="{{ asset('/img/man.png') }}" alt="geek man" class="img-responsive">
@@ -132,9 +138,11 @@
                     <div id="pop_up_incorrect_mail"
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
-                            <h3>Oupsss petit problème!!</h3>
-                            <a href="#" type="button" id="btn-style-switch-button5"
-                               class="btn btn-lg style-switch-button2">&times;</a>
+                            <div class="row">
+                                <h3 class="col-xs-10">Oupsss petit problème!!</h3>
+                                <a href="#" type="button" id="btn-style-switch-button5"
+                                   class="btn btn-lg style-switch-button2 pull-right">&times;</a>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p>Votre email ne semble pas valide. Pouvez-vous le verifier et réessayer?
