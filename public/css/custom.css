@@ -20,6 +20,13 @@ div.goto a.btn.btn-danger {
     border-left: none;
 }
 
+@media (max-width: 991px) {
+    div.goto {
+        top: 15px;
+    }
+}
+
+
 @keyframes toDown {
     0% {
         transform: translateY(0);
