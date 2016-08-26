@@ -44,7 +44,7 @@
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
                             <div class="row">
-                                <h3 class="col-xs-10">Employeurs</h3>
+                                <h3 class="col-xs-9">Employeurs</h3>
                                 <a href="#" type="button" data-target="#pop_up_employer" id="btn-style-switch-button2"
                                    class="btn btn-lg style-switch-button2 pull-right">&times;</a>
                             </div>
@@ -79,7 +79,7 @@
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
                             <div class="row">
-                                <h3 class="col-xs-10">Candidats</h3>
+                                <h3 class="col-xs-9">Candidats</h3>
                                 <a href="#" type="button" data-target="#pop_up_candidate" id="btn-style-switch-button3"
                                    class="btn btn-lg style-switch-button2 pull-right">&times;</a>
                             </div>
@@ -114,7 +114,7 @@
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
                             <div class="row">
-                                <h3 class="col-xs-10">Merci pour votre inscription!!</h3>
+                                <h3 class="col-xs-9">Merci pour votre inscription!!</h3>
                                 <a href="#" type="button" id="btn-style-switch-button4"
                                    class="btn btn-lg style-switch-button2 pull-right">&times;</a>
                              </div>
@@ -139,7 +139,7 @@
                          class="style-switch collapse col-xs-10 col-xs-pull-1 col-sm-8 col-sm-pull-2 col-md-6 col-md-pull-3">
                         <section>
                             <div class="row">
-                                <h3 class="col-xs-10">Oupsss petit problème!!</h3>
+                                <h3 class="col-xs-9">Oupsss petit problème!!</h3>
                                 <a href="#" type="button" id="btn-style-switch-button5"
                                    class="btn btn-lg style-switch-button2 pull-right">&times;</a>
                             </div>
