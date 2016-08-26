@@ -1,11 +1,20 @@
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Recrutement humain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CODEheures">
     <meta name="robots" content="all,follow">
+    <meta property="og:site_name" content="{{ env('APP_NAME') }}"/>
+    <meta property="og:title" content="Recrutement sans CV"/>
+    <meta property="og:description" content="{{ env('APP_NAME') }} pour un recrutement personnalisé sans CV. Une même chance pour tous et plus de tri de CV"/>
+    <meta property="og:image" content="{{ asset('/css/images/site_thumbnail.jpg') }}">
+    <meta property="og:url" content="{{ route('home') }}">
+    <meta property="og:type" content="website"/>
+
     <!-- PACE -->
     <script src="{{ asset('/js/pace.min.js') }}"></script>
     <link href="{{ asset('/css/pace-theme2.css') }}" rel="stylesheet">
@@ -28,6 +37,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.3.0/jssocials.css"/>
     <link type="text/css" rel="stylesheet"
           href="https://cdn.jsdelivr.net/jquery.jssocials/1.3.0/jssocials-theme-flat.css"/>
+    <title>{{ env('APP_NAME') }} | Recrutement humain</title>
 </head>
 <body>
 <div style="background-image: url('{{ asset('/img/urban3.jpg') }}')" class="main">
