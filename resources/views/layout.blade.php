@@ -55,8 +55,8 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <p class="credit">Made by <a href="https://codeheures.fr">CODEheures — FreeLance Webmaster</a>
-                        <br>With <a href="https://www.bootstrapious.com">Bootstrapious — Free Bootstrap Templates</a>
+                    <p class="credit">Made by <a href="https://codeheures.fr">CODEheures</a>
+                        <br>With <a href="https://www.bootstrapious.com">Bootstrapious</a>
                     </p>
                 </div>
             </div>
