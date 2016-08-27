@@ -182,16 +182,19 @@
     //JS SOCIAL
     jsSocials.shares.facebook.shareUrl = "https://www.facebook.com/sharer/sharer.php?u={url}";
 
+    jsSocials.shares.twitter.hashtags = ['savoirFaire', 'savoirEtre'];
+
     var parser = window.location.href;
     var myurl = "http://self-job.tk";
-    var mytxt = "Self Job";
+    var mytxt = "Self Job, le recrutement sans CV";
     if (parser.indexOf('?counter=true') != -1) {
         $("#share").jsSocials({
             url: myurl,
             text: mytxt,
             showLabel: true,
             showCount: true,
-            shares: ["twitter", "facebook", "googleplus", "linkedin", "email"]
+            shares: ["twitter", "facebook", "googleplus", "linkedin", "email"],
+            shareIn: "popup"
         });
     } else {
         $("#share").jsSocials({
@@ -199,7 +202,8 @@
             text: mytxt,
             showLabel: false,
             showCount: false,
-            shares: ["twitter", "facebook", "googleplus", "linkedin", "email"]
+            shares: ["twitter", "facebook", "googleplus", "linkedin", "email"],
+            shareIn: "popup"
         });
     }
 
