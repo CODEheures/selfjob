@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="employeur col-sm-6" data-target="#pop_up_employer">
                     <div class="card card1">
-                        <h4>Employeurs: un candidat qui me ressemble</h4>
+                        <h4>Employeurs: un candidat qui vous ressemble</h4>
                         <ul>
                             <li>Je dépose une annonce</li>
                             <li>Je crée un questionnaire personnalisé</li>
