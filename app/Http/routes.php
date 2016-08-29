@@ -19,4 +19,4 @@ Route::get('/mail_main_page/{email}/{type}', 'MainController@mail_main_page')->n
 Route::get('/mail_pop_up_candidate/{email}', 'MainController@mail_pop_up_candidate')->name('mail_pop_up_candidate');
 Route::get('/mail_pop_up_employer/{email}', 'MainController@mail_pop_up_employer')->name('mail_pop_up_employer');
 
-//Route::get('/etapes', 'MainController@etape')->name('etape');
+Route::get('/etapes', 'MainController@etape')->name('etape');

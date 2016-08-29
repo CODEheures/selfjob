@@ -5,7 +5,7 @@
 @section('content')
         <p id="share" class="social"></p>
         <div class="fake-h1">
-            <h1>Ressource humaines</h1>
+            <h1>Ressources humaines</h1>
             <img src="{{ asset('/img/rature.png') }}"/>
         </div>
         <h1 class="cursive">Recrutement humain</h1>
@@ -18,8 +18,8 @@
                         <h4>Employeurs: un candidat qui me ressemble</h4>
                         <ul>
                             <li>Je dépose une annonce</li>
-                            <li>Je crée un questionnaire à mon image</li>
-                            <li>Je reçois des dixaines de réponses déjà triées</li>
+                            <li>Je crée un questionnaire personnalisé</li>
+                            <li>Je reçois des dizaines de réponses déjà triées</li>
                             <li>J'invite les meilleures réponses à un entretien</li>
                         </ul>
                         <button class="btn btn-info btn-sm center-block">Démonstration</button>
@@ -29,9 +29,9 @@
                     <div class="card card2">
                         <h4>Candidats: une chance égale pour tous</h4>
                         <ul>
-                            <li>Je selectionne une annonces qui me correspond</li>
-                            <li><span class="no">J'envoi mon CV</span></li>
-                            <li>Je répond au questionnaire</li>
+                            <li>Je selectionne une annonce qui me correspond</li>
+                            <li><span class="no">J'envoie mon CV</span></li>
+                            <li>Je réponds au questionnaire</li>
                             <li>Je reçois une demande de RDV si je suis selectionné</li>
                         </ul>
                         <button class="btn btn-info btn-sm center-block">Démonstration</button>
@@ -275,7 +275,7 @@
                     yt = new YT.Player('yt0', {
                         height: '315',
                         width: '560',
-                        videoId: '2b8BtUhbDv8',
+                        videoId: 'yQgkU_g7Pxk',
                         playerVars: {'rel': 0, 'showinfo': 0},
                         events: {
                             'onReady': onPlayerReady
@@ -289,7 +289,7 @@
                     yt = new YT.Player('yt1', {
                         height: '315',
                         width: '560',
-                        videoId: 'R4QBhmMCWFY',
+                        videoId: 'SFhCdPjHW3s',
                         playerVars: {'rel': 0, 'showinfo': 0},
                         events: {
                             'onReady': onPlayerReady

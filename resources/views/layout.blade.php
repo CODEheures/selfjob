@@ -38,6 +38,7 @@
     <link type="text/css" rel="stylesheet"
           href="https://cdn.jsdelivr.net/jquery.jssocials/1.3.0/jssocials-theme-flat.css"/>
     <title>{{ env('APP_NAME') }} | Recrutement humain</title>
+    @yield('css')
 </head>
 <body>
 <div style="background-image: url('{{ asset('/img/urban3.jpg') }}')" class="main">

@@ -80,6 +80,7 @@ p.hashtags {
 .why h4 {
     font-size: 18px;
     color: black;
+    text-transform: uppercase;
 }
 
 @media (min-width: 520px) {
