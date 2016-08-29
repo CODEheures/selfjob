@@ -9,7 +9,7 @@ div.goto {
     right: 0;
     top: 80px;
     animation: toDown 3s infinite;
-    z-index: 2;
+    z-index: 200;
 }
 
 div.goto a.btn.btn-danger {
