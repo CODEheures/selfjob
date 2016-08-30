@@ -22,7 +22,7 @@
                             <li>Je reçois des dizaines de réponses déjà triées</li>
                             <li>J'invite les meilleures réponses à un entretien</li>
                         </ul>
-                        <button class="btn btn-info btn-lg center-block">Démonstration</button>
+                        <button class="btn btn-info btn-lg center-block">démo vidéo 1</button>
                     </div>
                 </div>
                 <div class="candidat col-sm-6" data-target="#pop_up_candidate">
@@ -34,7 +34,7 @@
                             <li>Je réponds au questionnaire</li>
                             <li>Je reçois une demande de RDV si je suis selectionné</li>
                         </ul>
-                        <button class="btn btn-info btn-lg center-block">Démonstration</button>
+                        <button class="btn btn-info btn-lg center-block">démo vidéo 2</button>
                     </div>
                 </div>
             </div>
