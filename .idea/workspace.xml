@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1019">
-              <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
               <folding>
                 <element signature="e#7039#7058#0#HTML" expanded="true" />
               </folding>
@@ -479,7 +479,7 @@
       <workItem from="1472476710359" duration="3187000" />
       <workItem from="1472487664615" duration="1588000" />
       <workItem from="1472494298641" duration="1417000" />
-      <workItem from="1472549754201" duration="1904000" />
+      <workItem from="1472549754201" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1472167035909</created>
@@ -621,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472551561709</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="change démonstration en &quot;démo vidéo&quot;">
+      <created>1472551688086</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1472551688086</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60686000" />
+    <option name="totallyTimeSpent" value="61405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="0" />
@@ -684,7 +691,8 @@
     <MESSAGE value="change &quot;me&quot; en &quot;vous&quot;&#10;" />
     <MESSAGE value="change btn-sm en btn-lg" />
     <MESSAGE value="change pop-up apres inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="change pop-up apres inscription" />
+    <MESSAGE value="change démonstration en &quot;démo vidéo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="change démonstration en &quot;démo vidéo&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1058,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1019">
-          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
           <folding>
             <element signature="e#7039#7058#0#HTML" expanded="true" />
           </folding>

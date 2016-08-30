@@ -13,18 +13,6 @@
         <p class="hashtags">#savoirFaire #savoirEtre</p>
         <div class="why">
             <div class="row">
-                <div class="employeur col-sm-6" data-target="#pop_up_employer">
-                    <div class="card card1">
-                        <h4>Employeurs: un candidat qui vous ressemble</h4>
-                        <ul>
-                            <li>Je dépose une annonce</li>
-                            <li>Je crée un questionnaire personnalisé</li>
-                            <li>Je reçois des dizaines de réponses déjà triées</li>
-                            <li>J'invite les meilleures réponses à un entretien</li>
-                        </ul>
-                        <button class="btn btn-info btn-lg center-block">démo vidéo 1</button>
-                    </div>
-                </div>
                 <div class="candidat col-sm-6" data-target="#pop_up_candidate">
                     <div class="card card2">
                         <h4>Candidats: une chance égale pour tous</h4>
@@ -33,6 +21,18 @@
                             <li><span class="no">J'envoie mon CV</span></li>
                             <li>Je réponds au questionnaire</li>
                             <li>Je reçois une demande de RDV si je suis selectionné</li>
+                        </ul>
+                        <button class="btn btn-info btn-lg center-block">démo vidéo 1</button>
+                    </div>
+                </div>
+                <div class="employeur col-sm-6" data-target="#pop_up_employer">
+                    <div class="card card1">
+                        <h4>Employeurs: un candidat qui vous ressemble</h4>
+                        <ul>
+                            <li>Je dépose une annonce</li>
+                            <li>Je crée un questionnaire personnalisé</li>
+                            <li>Je reçois des dizaines de réponses déjà triées</li>
+                            <li>J'invite les meilleures réponses à un entretien</li>
                         </ul>
                         <button class="btn btn-info btn-lg center-block">démo vidéo 2</button>
                     </div>
