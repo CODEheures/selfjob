@@ -128,6 +128,11 @@ body {
     }
 }
 
+.main .card .mailing-list {
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
 .main .transparent {
     background: rgba(255, 255, 255, 0.3);
     border: solid 1px #fff;

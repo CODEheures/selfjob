@@ -13,7 +13,7 @@
         <p class="hashtags">#savoirFaire #savoirEtre</p>
         <div class="why">
             <div class="row">
-                <div class="candidat col-sm-6" data-target="#pop_up_candidate">
+                <div class="candidat col-md-6" data-target="#pop_up_candidate">
                     <div class="card card2">
                         <h4>Candidats: une chance égale pour tous</h4>
                         <ul>
@@ -22,10 +22,32 @@
                             <li>Je réponds au questionnaire</li>
                             <li>Je reçois une demande de RDV si je suis selectionné</li>
                         </ul>
-                        <button class="btn btn-info btn-lg center-block">démo vidéo 1</button>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <div id="yt2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mailing-list">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form class="form-inline">
+                                        <input type="hidden" name="type" value="0">
+                                        <div class="form-group">
+                                            <label for="email2" class="sr-only"></label>
+                                            <input type="email" placeholder="jane.doe@example.com" id="email2"
+                                                   class="form-control transparent" name="email">
+                                        </div>
+                                        <button id="subscribe_candidate" class="btn btn-danger">S'inscrire</button>
+                                    </form>
+                                </div>
+                             </div>
+                        </div>
+                        {{--<button class="btn btn-info btn-lg center-block">démo vidéo 1</button>--}}
                     </div>
                 </div>
-                <div class="employeur col-sm-6" data-target="#pop_up_employer">
+                <div class="employeur col-md-6" data-target="#pop_up_employer">
                     <div class="card card1">
                         <h4>Employeurs: un candidat qui vous ressemble</h4>
                         <ul>
@@ -34,7 +56,29 @@
                             <li>Je reçois des dizaines de réponses déjà triées</li>
                             <li>J'invite les meilleures réponses à un entretien</li>
                         </ul>
-                        <button class="btn btn-info btn-lg center-block">démo vidéo 2</button>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <div id="yt3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mailing-list">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form class="form-inline">
+                                        <input type="hidden" name="type" value="1">
+                                        <div class="form-group">
+                                            <label for="email1" class="sr-only"></label>
+                                            <input type="email" placeholder="jane.doe@example.com" id="email1"
+                                                   class="form-control transparent" name="email">
+                                        </div>
+                                        <button id="subscribe_employer" class="btn btn-danger">S'inscrire</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        {{--<button class="btn btn-info btn-lg center-block">démo vidéo 2</button>--}}
                     </div>
                 </div>
             </div>
@@ -246,7 +290,24 @@
     //    after the API code downloads.
     var yt;
     function onYouTubeIframeAPIReady() {
-
+        yt3 = new YT.Player('yt3', {
+            height: '315',
+            width: '560',
+            videoId: 'yQgkU_g7Pxk',
+            playerVars: {'rel': 0, 'showinfo': 1},
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
+        yt2 = new YT.Player('yt2', {
+            height: '315',
+            width: '560',
+            videoId: 'SFhCdPjHW3s',
+            playerVars: {'rel': 0, 'showinfo': 1},
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
     }
 
     function onPlayerReady(event) {
@@ -337,15 +398,15 @@
 
         }
 
-        $('[data-target="#pop_up_employer"]').click(function (e) {
-            var $id = $(this).data('target');
-            pop_up($id);
-        });
-
-        $('[data-target="#pop_up_candidate"]').click(function (e) {
-            var $id = $(this).data('target');
-            pop_up($id);
-        });
+//        $('[data-target="#pop_up_employer"]').click(function (e) {
+//            var $id = $(this).data('target');
+//            pop_up($id);
+//        });
+//
+//        $('[data-target="#pop_up_candidate"]').click(function (e) {
+//            var $id = $(this).data('target');
+//            pop_up($id);
+//        });
 
         $('#subscribe_main').click(function (e) {
             e.preventDefault();
