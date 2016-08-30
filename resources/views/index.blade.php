@@ -1,6 +1,6 @@
 @extends('layout')
 @section('goto')
-    <div class="goto"><a href="#email3" class="btn btn-danger">Inscription &#8595;</a></div>
+    {{--<div class="goto"><a href="#email3" class="btn btn-danger">Inscription &#8595;</a></div>--}}
 @endsection
 @section('content')
         <p id="share" class="social"></p>
@@ -210,27 +210,27 @@
                 </div>
             </div>
         </div>
-        <div class="mailing-list">
-            <h3 class="mailing-list-heading">Inscription </h3>
-            <div class="row">
-                <div class="col-sm-12">
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <select class="form-control transparent" name="type">
-                                <option value="0">Je suis candidat</option>
-                                <option value="1">Je suis employeur</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="email3" class="sr-only"></label>
-                            <input type="email" placeholder="jane.doe@example.com" id="email3"
-                                   class="form-control transparent" name="email">
-                        </div>
-                        <button id="subscribe_main" class="btn btn-danger">S'inscrire</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+        {{--<div class="mailing-list">--}}
+            {{--<h3 class="mailing-list-heading">Inscription </h3>--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-sm-12">--}}
+                    {{--<form class="form-inline">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<select class="form-control transparent" name="type">--}}
+                                {{--<option value="0">Je suis candidat</option>--}}
+                                {{--<option value="1">Je suis employeur</option>--}}
+                            {{--</select>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label for="email3" class="sr-only"></label>--}}
+                            {{--<input type="email" placeholder="jane.doe@example.com" id="email3"--}}
+                                   {{--class="form-control transparent" name="email">--}}
+                        {{--</div>--}}
+                        {{--<button id="subscribe_main" class="btn btn-danger">S'inscrire</button>--}}
+                    {{--</form>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 @endsection
 @section('script')
 <script>
