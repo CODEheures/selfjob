@@ -183,7 +183,7 @@ p.hashtags {
     box-sizing: border-box;
     padding: 20px;
     position: fixed;
-    max-height: 72vh ;
+    max-height: 78vh ;
     overflow-y: auto;
     top: 14vh;
     background: rgba(16, 26, 30, 0.94);

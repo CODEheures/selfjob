@@ -130,9 +130,9 @@
                                     <img src="{{ asset('/img/man.png') }}" alt="geek man" class="img-responsive">
                                 </div>
                                 <div class="col-xs-12 col-sm-9">
-                                    <h4 class="alert alert-info">Notre application est en cours de création et sera
+                                    <p class="alert alert-info">Notre application est en cours de création et sera
                                         bientôt disponible. Nous vous enverrons un mail dès que celle-ci sera en ligne.
-                                    </h4>
+                                    </p>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-right">
