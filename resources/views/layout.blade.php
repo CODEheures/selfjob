@@ -56,8 +56,8 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <p class="credit">Made by <a href="https://codeheures.fr">CODEheures</a>
-                        <br>With <a href="https://www.bootstrapious.com">Bootstrapious</a>
+                    <p class="credit">Créé en France par <a href="https://codeheures.fr">CODEheures</a>
+                        <br>Avec l'aide de <a href="https://www.bootstrapious.com">Bootstrapious</a>
                     </p>
                 </div>
             </div>
